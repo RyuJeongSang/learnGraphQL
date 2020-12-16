@@ -1,0 +1,12 @@
+{
+  "name": "learnGraphQL",
+  "version": "1.0.0",
+  "description": "graphQL movie api",
+  "main": "index.js",
+  "repository": "https://github.com/RyuJeongSang/learnGraphQL",
+  "author": "ryujeongsang",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
