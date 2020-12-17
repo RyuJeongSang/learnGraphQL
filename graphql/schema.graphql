@@ -1,3 +1,14 @@
-type Query {
+type Title {
+  id: Int!
   name: String!
+  score: Int!
+}
+
+type Query {
+  movies: [Title]!
+  movie(id: Int!): Title
+}
+
+type Mutation {
+  addMovie(name: String!, score: Int!): Title!
 }
