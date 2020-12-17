@@ -20,3 +20,4 @@
 - yarn add babel-preset-env -D
 - yarn add babel-preset-stage-3 -D
 - yarn global add nodemon
+- yarn add node-fetch
